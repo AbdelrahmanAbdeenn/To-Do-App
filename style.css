@@ -1,0 +1,150 @@
+#header{
+    display: flex;
+    justify-content: center;       
+    align-items: center; 
+}
+
+#options{
+    display: flex;
+    justify-content: center;       
+    align-items: center; 
+}
+#first{
+    padding-left: 1%;
+    padding-right: 1%;
+    background-color: #2cce34;
+    border-radius: 15px;
+    color: white;
+}
+
+#second{
+    padding-left: 1%;
+    padding-right: 1%;
+    color:rgb(146, 5, 5)
+}
+
+#third{
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+#fourth{
+    padding-left: 1%;
+    padding-right: 1%;
+}
+#block{
+    display: flex;
+    justify-content: center;       
+    align-items: center; 
+}
+#list{
+    display: flex;
+    width: 70%;
+    flex-wrap: wrap;
+    gap: 5%;
+    margin: auto;  
+    justify-content: center;       
+    align-items: center; 
+    
+}
+#toDoItem{
+    display: flex;
+    margin: 1%;
+    width: 35%;
+    border: 1px solid black;
+}
+#ckbox{
+    display: flex;
+    justify-content: center;       
+    align-items: center; 
+    margin:1%;
+        
+}
+
+#icons{
+    display: flex;
+}
+#inlineIcons{
+    list-style-type: none;  /* Removes the dots */
+}
+#inlineIcons li {
+    display: inline-block;
+}.modal {
+    display: none; /* Hidden by default */
+    justify-content: center; /* Horizontally and vertically center */
+    align-items: center;
+    position: fixed;
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    padding-top: 15px;
+
+}
+
+/* Modal content */
+.modal-content {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow for pop-up */
+    position: relative;
+}
+
+/* Close button styles */
+.close {
+    color: #aaa;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+}
+
+/* Form styles */
+label {
+    font-size: 1rem;
+    margin-bottom: 5px;
+    display: block;
+    color: #555;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+}
+
+textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 24px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
